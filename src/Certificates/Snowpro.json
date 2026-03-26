@@ -1,0 +1,55 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "id": "https://www.credential.net/45393b94-e950-43f0-af18-11b901813162",
+  "name": "SnowPro Associate: Platform Certification",
+  "description": "This exam will validate that a candidate has the knowledge and skills to:Setup and navigate the Snowflake user interface and Snowflake NotebooksCreate database, stages, and use compute resourcesLoad and leverage structured, semi-structured, and unstructured dataUnderstand Snowflake roles, and data access managementUnderstand and manage the Snowflake Account structureCall the Snowflake Cortex LLM functions&nbsp;",
+  "image": {
+    "id": "https://pdf.ms.credential.net/v2/certificate/image?env=production&credential=djju6bup&variant=medium",
+    "type": "Image"
+  },
+  "issuer": {
+    "type": "Profile",
+    "id": "did:web:api.accredible.com:v1:verifiable_credential:organizations:114616",
+    "name": "Snowflake",
+    "url": "https://www.snowflake.com/en/"
+  },
+  "validFrom": "2026-01-12T00:00:00Z",
+  "validUntil": "2028-01-12T00:00:00Z",
+  "credentialSubject": {
+    "type": "AchievementSubject",
+    "identifier": [
+      {
+        "type": "IdentityObject",
+        "hashed": true,
+        "identityHash": "sha256$69a976d41f03cf028f41e75df703949e58403c44957c9a5ac254ee7b0aaa9288",
+        "identityType": "emailAddress",
+        "salt": "e7649012bf21e71d8f91a8f91aac4ab8"
+      }
+    ],
+    "achievement": {
+      "id": "https://www.credential.net/group/651532",
+      "type": "Achievement",
+      "achievementType": "Achievement",
+      "name": "SnowPro Associate: Platform Certification",
+      "description": "This exam will validate that a candidate has the knowledge and skills to:Setup and navigate the Snowflake user interface and Snowflake NotebooksCreate database, stages, and use compute resourcesLoad and leverage structured, semi-structured, and unstructured dataUnderstand Snowflake roles, and data access managementUnderstand and manage the Snowflake Account structureCall the Snowflake Cortex LLM functions&nbsp;",
+      "criteria": {
+        "narrative": "https://learn.snowflake.com/en/certifications/"
+      }
+    }
+  },
+  "proof": {
+    "type": "DataIntegrityProof",
+    "cryptosuite": "eddsa-rdfc-2022",
+    "created": "2026-03-08T09:27:41Z",
+    "verificationMethod": "did:web:api.accredible.com:v1:verifiable_credential:organizations:114616#07a2d368-dc14-11f0-907a-87a62c234f2a",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "zHVR77rhogXwCdaMuB4uqFncELYDWazpei4fhsVR154SwdkZz7TPuAyypH8o5boLJQD46UykqRVNkmMF8m9r1Fa8"
+  }
+}
